@@ -1,4 +1,38 @@
+body{
+background-color: #000;
+}
+h1{
+	font-size:4vw;
+	font-family: 'Quicksand', sans-serif;
 
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+}
+.head{
+	margin:0vw 0vw 0vw 8vw;
+}
+.para{
+	float:left;
+	height:4rem;
+	width: 15rem;
+	margin-left: 10vw;
+}
+.para > p{
+	font-size: 20px;
+	line-height: 2;
+	font-family: 'EB Garamond', serif;
+}
+.bigRed{
+	color:red;
+	font-size:6vw;
+}
+.headCont{
+	background-color:#fdb813;
+	height:500px;
+	width: 100%;
+	margin-bottom: 20px;
+}
 .burgers{
 	display: flex;
 	justify-content: space-around;
@@ -8,22 +42,38 @@
 	margin:1em;
 	display: flex;
 	justify-content: center;
-}
-.ready form{
-	display: flex;
-	justify-content: center;
+	font-family: 'EB Garamond', serif;
 }
 .devoured li{
-	list-style: none;
+	font-family: 'EB Garamond', serif;
 	margin:1em;
 }
-img{
-margin-left:auto;
-margin-right: auto;
-	height: 10em;
-	width: 10em;
+.burgImg{
+	display: flex;
+	justify-content: center;
 }
 .newBurger{
 	display: flex;
 	justify-content: center;
+}
+.inst{
+	display: flex;
+	justify-content: center;
+}
+.inst p{
+	font-size: 2vw;
+	font-family: 'Quicksand', sans-serif;
+
+}
+.newBurger button{
+	background-color:red;
+	color:#000;
+	border-radius: 5px;
+}
+.newBurger input{
+	border-radius: 5px;
+}
+.bottomContent{
+	margin-top: 70px;
+	background-color: #fff;
 }
